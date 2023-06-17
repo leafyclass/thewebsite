@@ -1,0 +1,44 @@
+body {
+    background-color: #ffcdcc;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    color: #3f3333;
+}
+
+a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a img {
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+
+.smooth {
+    image-rendering: smooth;
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+.main-box {
+    margin: 0 auto;
+    width: 650px;
+    height: 400px;
+}
+
+.info {
+    padding-left: 195px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.links {
+    padding-bottom: 50px;
+}
